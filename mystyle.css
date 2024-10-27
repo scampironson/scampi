@@ -1,0 +1,176 @@
+h1, h2, h3 {
+    text-align: center;
+    font-family: Gill Sans, sans-serif;
+}
+
+figcaption{
+    text-align: center;
+    font-family: Noto Sans, sans-serif
+}
+
+P {
+    text-align:center;
+    font-family: Noto Sans, sans-serif
+}
+
+ol, li {
+    font-family: Noto Sans, sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.navbutton {
+    font-family: "Noto Sans", sans-serif;
+    text-align: center;
+    padding: 0.5em 0.75em 0.5em 0.75em;
+    border-style: ridge;
+    background: skyblue;
+    border-radius: 1em;
+    text-decoration: none; 
+    color: black;
+}   
+
+nav {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.navbutton:hover {
+    background-color: orangered;
+    transition: 0.7s
+}
+
+.main-photo {
+    width: 33vw;
+    margin: auto;
+    display: block;
+    Border: solid;
+    border-radius:1em;
+}
+.index-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.scampi-photo {
+    width: 100%;
+    max-width: 25vw;
+    height: auto;
+    border-radius: 8px;
+    Border: solid;
+    border-radius:1em;
+}
+         
+ .Button {
+    width: 15vw;
+    margin: auto;
+    display: block;
+}
+
+.outer-list {
+    list-style-type:circle;
+    border: solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.outer-list ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+.foster-photo {
+    width: 33vw;
+    margin: auto;
+    order-radius: 10px;
+    display: block;
+    border-radius:1em;
+}
+
+.schedule, th, td { 
+    border: 1px solid black; 
+    border-collapse: collapse;
+    font-family: Noto Sans, sans-serif
+}
+
+table, th, td { 
+    text-align: center; 
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: lightyellow;
+}
+
+#blue {
+    background-color:lightblue;
+}
+
+#red {
+    color:orangered;
+ }
+
+#footer {
+    text-align: right;
+    font-family: Noto Sans, sans-serif;
+    font-size: 12px;
+    color: green;
+}
+
+.grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+}
+
+.supplies, .rescue-links {
+    padding: 10px;
+}
+
+.main-text {
+    padding: 20px;
+    display: float;
+    width: 40vw;
+    height: auto;
+    border: solid;
+    border-radius: 5px;
+}
+
+.rescue-links {
+    text-align: center;
+}
+
+.button2 {
+    font-family: Noto Sans, sans-serif;
+    text-align:center;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    Border-style: none;
+    border-radius:1em;
+    background: lightgoldenrodyellow;
+}
+
+.button2:hover {
+    background-color: yellow;
+    transition: 0.7s;
+}
+
+.outer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.schedule-table, .morning-routine, .food, .training {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+}
+
