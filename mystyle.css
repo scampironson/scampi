@@ -24,7 +24,10 @@ a:link {
 .navbutton {
     font-family: "Noto Sans", sans-serif;
     text-align: center;
-    padding: 0.5em 0.75em 0.5em 0.75em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
     border-style: ridge;
     background: skyblue;
     border-radius: 1em;
