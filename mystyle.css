@@ -137,7 +137,6 @@ tr:nth-child(even) {
 
 .main-text {
     padding: 20px;
-    display: float;
     width: 40vw;
     height: auto;
     border: solid;
